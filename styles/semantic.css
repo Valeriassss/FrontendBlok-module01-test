@@ -22,7 +22,7 @@ ul {
     margin: 0;
    
 }
-ul > li {
+ul > li:not(:last-child) {
     margin-right: 30px;
 }
 .box {
@@ -45,16 +45,23 @@ font-size: 14px;
 
 line-height: 1.5;
 }
-footer {
+    .footer {
     font-size: 13px;
     padding-left: 20px;
-    padding-right: 20px;
-}
+    padding-right: 20px;}
+
 h1 { text-transform: uppercase; letter-spacing: 0.01em;}
 h2 {text-transform: uppercase;letter-spacing: .01em}
 h3 {text-transform: uppercase;letter-spacing: 0.01em;}
-section {
-    background-color: lavender;
+.section {
+    background-color: moccasin;
     padding-bottom: 5px 20px;
     margin-bottom: 20px;
+}
+h1 {
+    background-color: rebeccapurple;
+    color: white;
+    padding-top: 8px; padding-bottom: 8px;
+    padding-left: 15px; padding-right: 15px;
+
 }
